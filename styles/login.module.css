@@ -1,0 +1,11 @@
+.login {
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--voilet-color);
+}
+.loginForm {
+  padding: 2rem 3rem;
+  background-color: var(--white-color);
+}
