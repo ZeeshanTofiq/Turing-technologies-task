@@ -9,8 +9,12 @@ module.exports = withYAML(
         modifyVars: {},
       },
     },
+
     images: {
       domains: ["images.pexels.com", "cdn.pixabay.com"],
+    },
+    typescript: {
+      ignoreBuildErrors: true,
     },
     webpack(config) {
       config.module.rules.push({
